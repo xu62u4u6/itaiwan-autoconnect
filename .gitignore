@@ -1,0 +1,21 @@
+# Build outputs and private local validation records
+/*.exe
+/VERIFICATION.md
+/CERTIFICATE_DIAGNOSTIC.md
+# Runtime state and credentials (even if accidentally copied here)
+settings.json
+outbox/
+status.json
+heartbeat.json
+monitor.json
+mail-status.json
+control.json
+*.log
+*.log.old
+*.flag
+consent-time.txt
+launcher-error.txt
+.stage-*/
+.backup-*/
+*.restore-*
+*.tmp
